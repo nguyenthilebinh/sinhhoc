@@ -44,7 +44,7 @@ export const SlideViewerPage: React.FC = () => {
     ? slideCatalog
     : slideCatalog.filter(s => s.bookCode === selectedGrade);
 
-  const pdfUrl = `./document/slide/${encodeURIComponent(activeDeck.fileName)}`;
+  const pdfUrl = `./document/slide/${activeDeck.fileName.split('/').map(s => encodeURIComponent(s)).join('/')}`;
 
   return (
     <div className="container" style={{ padding: '32px 20px' }}>
