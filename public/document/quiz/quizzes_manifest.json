@@ -1,0 +1,23 @@
+[
+  {
+    "id": "quiz-sinh-10",
+    "bookCode": "SINH 10",
+    "title": "Bộ Trắc Nghiệm Sinh Học 10: Tế Bào",
+    "chapter": "Chương 1 & 2",
+    "fileName": "quizzes_template.xlsx"
+  },
+  {
+    "id": "quiz-sinh-11",
+    "bookCode": "SINH 11",
+    "title": "Bộ Trắc Nghiệm Sinh Học 11: Quang Hợp & Sinh Lý",
+    "chapter": "Chương 1: Chuyển Hóa Năng Lượng",
+    "fileName": "de-on-tap-sinh-11.xlsx"
+  },
+  {
+    "id": "quiz-sinh-12",
+    "bookCode": "SINH 12",
+    "title": "Bộ Trắc Nghiệm Sinh Học 12: Gen & Di Truyền",
+    "chapter": "Chương 1: Cơ Chế Di Truyền",
+    "fileName": "de-on-tap-sinh-12.xlsx"
+  }
+]

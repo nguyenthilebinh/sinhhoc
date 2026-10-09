@@ -1,0 +1,91 @@
+[
+  {
+    "id": "animal_cell",
+    "name": "Tế Bào Động Vật 3D (Animal Cell)",
+    "category": "Mô hình Tế Bào Nhân Thực",
+    "glbFile": "./document/3Dmodel/animal_cell.glb",
+    "previewImage": "./document/3Dmodel/animal_cell.png",
+    "nihSource": "https://3d.nih.gov/entries/3DPX-015797/2",
+    "description": "Mô hình 3D tế bào động vật NIH 3D Collection với đầy đủ nhân tế bào, ti thể, màng nội bào và các bào quan màu sắc trực quan.",
+    "organelles": [
+      { "id": "nucleus", "name": "Nhân Tế Bào (Nucleus)", "description": "Chứa bộ gen ADN di truyền của tế bào.", "function": "Lưu trữ thông tin di truyền & điều khiển hoạt động tế bào." },
+      { "id": "mitochondria", "name": "Ti Thể (Mitochondria)", "description": "Bào quan sản xuất ATP.", "function": "Hô hấp tế bào tổng hợp năng lượng ATP." },
+      { "id": "membrane", "name": "Màng Sinh Chất (Cell Membrane)", "description": "Màng bao bọc khối tế bào chất.", "function": "Bao bọc và trao đổi chất có chọn lọc." }
+    ]
+  },
+  {
+    "id": "gram_positive_wall",
+    "name": "Thành Tế Bào Vi Khuẩn Gram Dương",
+    "category": "Cấu Trúc Tế Bào Vi Khuẩn",
+    "glbFile": "./document/3Dmodel/gram_positive_wall.glb",
+    "previewImage": "./document/3Dmodel/gram_positive_wall.png",
+    "nihSource": "https://3d.nih.gov/entries/3DPX-010752/2",
+    "description": "Mô hình 3D cấu trúc thành tế bào vi khuẩn Gram Dương (Gram Positive Cell Wall) với lớp Peptidoglycan dày đặc và màng sinh chất.",
+    "organelles": [
+      { "id": "peptidoglycan", "name": "Lớp Peptidoglycan", "description": "Lớp mạng lưới chuỗi đường và peptide dầy dặn.", "function": "Bảo vệ vi khuẩn chống lại áp suất thẩm thấu." },
+      { "id": "membrane", "name": "Màng Tương (Plasma Membrane)", "description": "Lớp kép phospholipid nằm bên dưới lớp thành.", "function": "Kiểm soát trao đổi chất nội ngoại bào." }
+    ]
+  },
+  {
+    "id": "neuron",
+    "name": "Tế Bào Thần Kinh (Neuron)",
+    "category": "Mô Hình Tế Bào Chuyên Hóa",
+    "glbFile": "./document/3Dmodel/neuron.glb",
+    "previewImage": "./document/3Dmodel/neuron.png",
+    "nihSource": "https://3d.nih.gov/entries/3DPX-015796/2",
+    "description": "Mô hình 3D tế bào thần kinh (Neuron NIH 3D Collection) gồm thân tế bào (soma), sợi nhánh (dendrites) và sợi trục (axon).",
+    "organelles": [
+      { "id": "soma", "name": "Thân Tế Bào (Soma)", "description": "Chứa nhân tế bào thần kinh và các bào quan duy trì sự sống.", "function": "Tiếp nhận thông tin và tổng hợp chất dẫn truyền thần kinh." },
+      { "id": "axon", "name": "Sợi Trục (Axon)", "description": "Sợi thần kinh dài dẫn truyền xung thần kinh.", "function": "Truyền xung thần kinh điện thế nghỉ/hoạt động đến tế bào đích." }
+    ]
+  },
+  {
+    "id": "plant_cell",
+    "name": "Tế Bào Thực Vật (Plant Cell)",
+    "category": "Mô hình Tế Bào Thực Vật",
+    "glbFile": "./document/3Dmodel/animal_cell.glb",
+    "previewImage": "./document/3Dmodel/plant_cell.png",
+    "nihSource": "https://3d.nih.gov/",
+    "description": "Ảnh render minh họa cấu trúc tế bào thực vật với thành tế bào xenlulozơ cứng chắc, lục thể và không bào trung tâm.",
+    "organelles": [
+      { "id": "wall", "name": "Thành Tế Bào", "description": "Lớp vỏ xenlulozơ bảo vệ tế bào thực vật.", "function": "Định hình cấu trúc tế bào cứng cáp." },
+      { "id": "chloroplast", "name": "Lục Thể", "description": "Bào quan chứa diệp lục.", "function": "Quang hợp tổng hợp Glucose." }
+    ]
+  },
+  {
+    "id": "epithelial",
+    "name": "Tế Bào Biểu Mô (Epithelial Cell)",
+    "category": "Mô Hình Tế Bào Chuyên Hóa",
+    "glbFile": "./document/3Dmodel/animal_cell.glb",
+    "previewImage": "./document/3Dmodel/epithelial.png",
+    "nihSource": "https://3d.nih.gov/",
+    "description": "Ảnh render minh họa tế bào biểu mô xếp chặt tạo nên các lớp màng che phủ bề mặt cơ quan.",
+    "organelles": [
+      { "id": "junction", "name": "Liên Kết Tế Bào", "description": "Liên kết chặt chẽ giữa các tế bào kề nhau.", "function": "Bảo vệ các mô bên dưới." }
+    ]
+  },
+  {
+    "id": "muscle",
+    "name": "Tế Bào Cơ (Muscle Cell)",
+    "category": "Mô Hình Tế Bào Chuyên Hóa",
+    "glbFile": "./document/3Dmodel/animal_cell.glb",
+    "previewImage": "./document/3Dmodel/muscle.png",
+    "nihSource": "https://3d.nih.gov/",
+    "description": "Ảnh render minh họa tế bào cơ thoi dài chứa các tơ cơ actin và myosin giúp cơ thể vận động.",
+    "organelles": [
+      { "id": "myofibril", "name": "Tơ Cơ Actin & Myosin", "description": "Cấu trúc vi sợi co rút được.", "function": "Co dãn sinh lực giúp vận động." }
+    ]
+  },
+  {
+    "id": "white_blood",
+    "name": "Tế Bào Bạch Cầu (White Blood Cell)",
+    "category": "Mô Hình Tế Bào Miễn Dịch",
+    "glbFile": "./document/3Dmodel/animal_cell.glb",
+    "previewImage": "./document/3Dmodel/white_blood.png",
+    "nihSource": "https://3d.nih.gov/",
+    "description": "Ảnh render minh họa tế bào bạch cầu hệ miễn dịch có khả năng thực bào tiêu diệt vi khuẩn gây bệnh.",
+    "organelles": [
+      { "id": "lysosome", "name": "Lysosome Tiêu Hóa", "description": "Túi enzyme tiêu hóa mạnh.", "function": "Phân giải vi khuẩn và vật thể lạ bị thực bào." }
+    ]
+  }
+]

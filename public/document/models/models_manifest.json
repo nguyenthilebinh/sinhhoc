@@ -1,0 +1,35 @@
+[
+  {
+    "id": "animal",
+    "name": "Tế Bào Động Vật 3D",
+    "category": "Tế Bào Nhân Thực",
+    "glbFile": "document/models/animal_cell.glb",
+    "description": "Mô hình 3D tế bào động vật nhân thực với đầy đủ các bào quan nội bào.",
+    "organelles": [
+      { "id": "nucleus", "name": "Nhân Tế Bào", "description": "Chứa bộ gen ADN di truyền.", "function": "Lưu trữ thông tin di truyền & điều khiển tế bào." },
+      { "id": "mitochondria", "name": "Ti Thể", "description": "Bào quan hô hấp tế bào.", "function": "Tổng hợp ATP năng lượng cho tế bào." },
+      { "id": "golgi", "name": "Bộ Máy Golgi", "description": "Túi dẹt đóng gói protein.", "function": "Chế biến và phân phối sản phẩm xuất bào." }
+    ]
+  },
+  {
+    "id": "plant",
+    "name": "Tế Bào Thực Vật 3D",
+    "category": "Tế Bào Nhân Thực",
+    "glbFile": "document/models/plant_cell.glb",
+    "description": "Mô hình 3D tế bào thực vật với thành tế bào xenlulozơ và lục thể.",
+    "organelles": [
+      { "id": "wall", "name": "Thành Tế Bào", "description": "Lớp vỏ xenlulozơ cứng chắc.", "function": "Bảo vệ và định hình tế bào thực vật." },
+      { "id": "chloroplast", "name": "Lục Thể", "description": "Bào quan quang hợp chứa diệp lục.", "function": "Chuyển ánh sáng thành năng lượng Glucose." }
+    ]
+  },
+  {
+    "id": "dna",
+    "name": "Mô Hình ADN 3D",
+    "category": "Phân Tử Di Truyền",
+    "glbFile": "document/models/dna.glb",
+    "description": "Cấu trúc xoắn đôi ADN B-DNA 3D.",
+    "organelles": [
+      { "id": "basepair", "name": "Cặp Nu Bổ Sung", "description": "Adenine - Thymine & Guanine - Cytosine.", "function": "Lưu trữ thông tin di truyền chính xác." }
+    ]
+  }
+]
